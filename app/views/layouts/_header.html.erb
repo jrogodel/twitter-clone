@@ -1,10 +1,11 @@
 <header class="navbar navbar-fixed-top navbar-inverse">
 	<div class="container">
-	<%= link_to "Tweeter", "#", id: "logo" %>
+	<%= link_to "Tweeter", root_path, id: "logo" %>
 		<nav >
 			<ul id="main-nav" class="nav navbar-nav navbar-right">
-				<li><%= link_to "Home", 'root_path' %></li>
-				<li><%= link_to "Help", 'static_pages/help_path' %></li>
+				<li><%= link_to "Home", root_path %></li>
+				<li><%= link_to "About", about_path %></li>
+				<li><%= link_to "Contact", contact_path %></li>
 				<li><%= link_to "Log in", '#' %></li>
 			</ul>
 		</nav>
